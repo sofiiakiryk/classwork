@@ -1,0 +1,97 @@
+* {
+  font-family: "Manrope", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+.logo {
+  font-size: 30px;
+}
+.hadder {
+  padding: 30px 30px 30px 30px;
+}
+.hadder-content {
+  display: flex;
+  justify-content: space-between;
+}
+.menuiteam {
+  text-decoration: none;
+  color: rgb(49, 35, 235);
+  margin-right: 40px;
+  text-transform: uppercase;
+  size: 5px;
+}
+
+.buttom1 {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #1f5eca;
+  margin: 40px;
+  padding: 15px 20px;
+  font-size: 15px;
+  background-color: #cbd6e7;
+  border-radius: 40px;
+  border: solid #1f5eca;
+}
+.page {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pageright {
+  max-width: 340px;
+}
+.pageleft {
+  max-width: 696px;
+  width: 100%;
+}
+.subtitle {
+  font-weight: 600;
+  font-size: 24px;
+  width: 592px;
+  height: 70px;
+}
+.title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 114%;
+  width: 696px;
+  height: 219px;
+  margin-bottom: 42px;
+}
+.wrapper {
+  max-width: 1216px;
+  margin: auto;
+}
+.buttom {
+  padding: 15px 20px;
+  font-size: 15px;
+  background-color: #cbd6e7;
+  border-radius: 40px;
+  border: solid #1f5eca;
+  color: #1f5eca;
+}
+.paragraf {
+  font-size: 17px;
+  width: 280px;
+  font-weight: 500;
+  font-size: 14px;
+}
+.body {
+  max-width: 892px;
+  margin-top: 100px;
+}
+.part {
+  margin-left: 200px;
+}
+.partsecond {
+  margin: auto;
+
+  margin-left: 250px;
+}
+.left {
+  display: flex;
+}
+.partthird {
+  margin-left: 300px;
+}
