@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+.input-wrapper {
+  display: block;
+  max-width: 360px;
+  position: relative;
+  margin: auto;
+}
+
+.input {
+  width: 100%;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  padding: 16px 19px;
+  border: 1px solid #000000;
+  border-radius: 30px;
+  box-sizing: border-box;
+}
+
+.input-buttom {
+  height: 38px;
+  width: 38px;
+  border-radius: 100px;
+  border: none;
+  background-color: #b8b6b3;
+  background-image: url("button search.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px 24px;
+  position: absolute;
+  right: 9px;
+  top: 11px;
+}

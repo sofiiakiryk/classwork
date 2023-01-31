@@ -1,4 +1,25 @@
-.about {
-  text-align: center;
-  padding: 64px 0px 80px 0px;
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.shop-card {
+  border: 1px solid rgb(230, 217, 217);
+  padding: 21px 21px 41px 21px;
+  border-radius: 62px;
+}
+.shop-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 40px 20px;
+}
+@media (max-width: 536) {
+  .shop-content {
+    grid-template-columns: 1fr;
+  }
 }

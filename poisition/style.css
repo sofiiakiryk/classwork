@@ -1,0 +1,23 @@
+.form {
+  color: blue;
+  height: 100px;
+  width: 300px;
+}
+.p {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.form-subtitle {
+  line-height: 27px;
+  color: #e2e1ff;
+}
+.form-title {
+  line-height: 42px;
+}
+.form-input {
+  background: #4b4acf;
+  border: 1px solid #8d8dff;
+  border-radius: 2px;
+  padding: 12px;
+}
